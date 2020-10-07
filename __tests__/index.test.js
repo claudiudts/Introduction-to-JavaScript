@@ -25,7 +25,7 @@ describe('hungryDogFunction', ()=>{
 });
 describe('gameFunction', ()=>{
     it('return win, lose or tie', ()=>{
-        expect(functions.game('rock', 'sissors')).toBe('you win!');
+        expect(functions.game('rock', 'scissors')).toBe('you win!');
     })
     it('return win, lose or tie', ()=>{
         expect(functions.game('rock', 'paper')).toBe('you lose!');
@@ -46,7 +46,7 @@ describe('feetFunction', ()=>{
     })
 });
 describe('annoyingSongFunction', ()=>{
-    it('a string that counts down based on the number imputted', ()=>{
+    it('a string that counts down based on the number inputted', ()=>{
         expect(functions.annoyingSong(5)).toBe(`${5} bottles of soda on the wall, ${5} bottles of soda, take one down pass it around ${5 - 1} bottles of soda on the wall`);
     })
 });
